@@ -1,0 +1,142 @@
+// Obtener todos los elementos <table> de la página
+var tablas = document.getElementsByTagName("table");
+// Acceder a la tabla por su ID
+var tabla = tablas[1]
+// Crear una variable para almacenar el contenido de la tabla
+var contenidoTabla = "";
+// Recorrer las filas de la tabla
+for (var i = 0; i < tabla.rows.length; i++) {
+  var fila = tabla.rows[i];
+  // Recorrer las celdas de cada fila
+  for (var j = 0; j < fila.cells.length; j++) {
+    var celda = fila.cells[j];
+    // Obtener el contenido de la celda
+    var contenido = celda.innerText;
+    // Agregar el contenido de la celda a la variable
+    contenidoTabla += contenido + "\t"; // Separador de celdas (puedes cambiarlo según tu preferencia)
+  }
+  contenidoTabla += "\n"; // Salto de línea al final de cada fila
+}
+// Obtener una porción de la URL como parte del nombre del archivo
+var url = window.location.href;
+var nombreJugador = url.split("/")[4];
+// Crear un enlace para descargar el archivo
+var enlaceDescarga = document.createElement("a");
+enlaceDescarga.href = "data:text/plain;charset=utf-8," + encodeURIComponent(contenidoTabla);
+enlaceDescarga.download = nombreJugador + ".txt"; // Nombre del archivo de salida
+// Simular un clic en el enlace de descarga
+enlaceDescarga.click();
+
+
+https://basketball.realgm.com/player/LeBron-James/Summary/250
+id table-8590
+
+id table-3275
+
+
+// Acceder a la tabla por su ID
+var tabla = document.getElementById("table-4528");
+
+// Crear una variable para almacenar el contenido de la tabla
+var contenidoTabla = "";
+
+// Recorrer las filas de la tabla
+for (var i = 0; i < tabla.rows.length; i++) {
+  var fila = tabla.rows[i];
+  
+  // Recorrer las celdas de cada fila
+  for (var j = 0; j < fila.cells.length; j++) {
+    var celda = fila.cells[j];
+    
+    // Obtener el contenido de la celda
+    var contenido = celda.innerText;
+    
+    // Agregar el contenido de la celda a la variable
+    contenidoTabla += contenido + "\t"; // Separador de celdas (puedes cambiarlo según tu preferencia)
+  }
+  
+  contenidoTabla += "\n"; // Salto de línea al final de cada fila
+}
+
+// Crear un enlace para descargar el archivo
+var enlaceDescarga = document.createElement("a");
+enlaceDescarga.href = "data:text/plain;charset=utf-8," + encodeURIComponent(contenidoTabla);
+enlaceDescarga.download = "tabla.txt"; // Nombre del archivo de salida
+
+// Simular un clic en el enlace de descarga
+enlaceDescarga.click();
+
+
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+// Obtener todos los elementos <table> de la página
+var tablas = document.getElementsByTagName("table");
+// Acceder a la tabla por su ID
+var tabla = tablas[1]
+// Crear una variable para almacenar el contenido de la tabla
+var contenidoTabla = "";
+// Recorrer las filas de la tabla
+for (var i = 0; i < tabla.rows.length; i++) {
+  var fila = tabla.rows[i];
+  // Recorrer las celdas de cada fila
+  for (var j = 0; j < fila.cells.length; j++) {
+    var celda = fila.cells[j];
+    // Obtener el contenido de la celda
+    var contenido = celda.innerText;
+    // Agregar el contenido de la celda a la variable
+    contenidoTabla += contenido + "\t"; // Separador de celdas (puedes cambiarlo según tu preferencia)
+  }
+  contenidoTabla += "\n"; // Salto de línea al final de cada fila
+}
+// Obtener una porción de la URL como parte del nombre del archivo
+var url = window.location.href;
+var nombreJugador = url.split("/")[4];
+// Crear un enlace para descargar el archivo
+var enlaceDescarga = document.createElement("a");
+enlaceDescarga.href = "data:text/plain;charset=utf-8," + encodeURIComponent(contenidoTabla);
+enlaceDescarga.download = nombreJugador + ".txt"; // Nombre del archivo de salida
+// Simular un clic en el enlace de descarga
+enlaceDescarga.click();
+
+
+
+
+
+**************************************************************************************
+
+nba.com
+Crom_table__p1iZz
+Crom_table__p1iZz
+
+
+// Acceder a la tabla por su clase
+var tabla = document.getElementsByClassName("Crom_table__p1iZz")[0];
+
+// Crear una variable para almacenar el contenido de la tabla
+var contenidoTabla = "";
+
+// Recorrer las filas de la tabla
+for (var i = 0; i < tabla.rows.length; i++) {
+  var fila = tabla.rows[i];
+  
+  // Recorrer las celdas de cada fila
+  for (var j = 0; j < fila.cells.length; j++) {
+    var celda = fila.cells[j];
+    
+    // Obtener el contenido de la celda
+    var contenido = celda.innerText;
+    
+    // Agregar el contenido de la celda a la variable
+    contenidoTabla += contenido + "\t"; // Separador de celdas (puedes cambiarlo según tu preferencia)
+  }
+  
+  contenidoTabla += "\n"; // Salto de línea al final de cada fila
+}
+
+// Crear un enlace para descargar el archivo
+var enlaceDescarga = document.createElement("a");
+enlaceDescarga.href = "data:text/plain;charset=utf-8," + encodeURIComponent(contenidoTabla);
+enlaceDescarga.download = "tabla.txt"; // Nombre del archivo de salida
+
+// Simular un clic en el enlace de descarga
+enlaceDescarga.click();
