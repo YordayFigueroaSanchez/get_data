@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  #progress-bar {
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    height: 30px;
+    position: relative;
+  }
+  
+  #progress {
+    height: 100%;
+    width: 0;
+    background-color: #4CAF50;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #start-date {
+    position: absolute;
+    top: 40px;
+    left: 0;
+  }
+  
+  #end-date {
+    position: absolute;
+    top: 40px;
+    right: 0;
+  }
+</style>
+</head>
+<body>
+  <h1>Barra de progreso</h1>
+  <div id="start-date">21/03/2023</div>
+  <div id="end-date">21/06/2023</div>
+  <div id="progress-bar">
+    <div id="progress"></div>
+  </div>
+
+  <script>
+    // Fecha de inicio y fin
+    var startDate = new Date('2023-03-21');
+    var endDate = new Date('2023-06-21');
+
+    // Fecha actual
+    var currentDate = new Date();
+
+    // Calcular el progreso
+    var totalDays = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24));
+    var progressDays = Math.ceil((currentDate - startDate) / (1000 * 60 * 60 * 24));
+    var progressPercentage = (progressDays / totalDays) * 100;
+
+    // Actualizar la barra de progreso
+    var progressBar = document.getElementById('progress');
+    progressBar.style.width = progressPercentage + '%';
+  </script>
+</body>
+</html>

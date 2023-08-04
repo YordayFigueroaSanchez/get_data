@@ -1,0 +1,35 @@
+{
+    "colores": {
+      "Atlanta Hawks": "E03A3E",
+      "Boston Celtics": "007A33",
+      "Brooklyn Nets": "000000",
+      "Charlotte Hornets": "1D1160",
+      "Chicago Bulls": "CE1141",
+      "Cleveland Cavaliers": "860038",
+      "Detroit Pistons": "C8102E",
+      "Indiana Pacers": "002D62",
+      "Miami Heat": "98002E",
+      "Milwaukee Bucks": "00471B",
+      "New York Knicks": "006BB6",
+      "Orlando Magic": "0077C0",
+      "Philadelphia 76ers": "006BB6",
+      "Toronto Raptors": "A1A1A4",
+      "Washington Wizards": "E31837",
+      "Denver Nuggets":"0E2240",
+      "Memphis Grizzlies":"5D76A9",
+      "Sacramento Kings":"5A2D81",
+      "Phoenix Suns":"1D1160",
+      "Los Angeles Clippers":"C8102E",
+      "Golden State Warriors":"1D428A",
+      "Los Angeles Lakers":"552583",
+      "Minnesota Timberwolves":"0C2340",
+      "New Orleans Pelicans":"0CA340",
+      "Oklahoma City Thunder":"007AC1",
+      "Dallas Mavericks":"00538C",
+      "Utah Jazz":"002B5C",
+      "Portland Trail Blazers":"E03A3E",
+      "Houston Rockets":"C41ED4",
+      "San Antonio Spurs":"C4CED4"
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "Atlanta Hawks":        [255, 0, 0],
+    "Boston Celtics":       [0, 255, 0],
+    "Brooklyn Nets":        [0, 0, 255],
+    "Charlotte Hornets":    [255, 255, 0],
+    "Chicago Bulls":        [255, 0, 255],
+    "Cleveland Cavaliers":  [0, 255, 255],
+    "Detroit Pistons":      [128, 128, 128],
+    "Indiana Pacers":       [255, 165, 0],
+    "Miami Heat":           [128, 0, 128],
+    "Milwaukee Bucks":      [0, 0, 128],
+    "New York Knicks":      [0, 0, 128],
+    "Orlando Magic":        [139, 69, 19],
+    "Philadelphia 76ers":   [255, 192, 203],
+    "Toronto Raptors":      [0, 128, 128],
+    "Washington Wizards":   [128, 128, 0]
+}
